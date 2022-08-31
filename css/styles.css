@@ -44,8 +44,12 @@ span.logo-color {
     .site-nav a:focus {
         color: #2196F3;
     }
+        
+        li {
+            display: block;
+        }
        
-    }
+    
 
 
 .page-footer {
