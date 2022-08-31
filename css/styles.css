@@ -1,5 +1,5 @@
 .page-header {
-
+ background: #FFFFFF;
 }
 .logo {
     font-family: 'Raleway';
@@ -29,25 +29,39 @@ span.logo-color {
             overflow: hidden;
 }
 
-.site-nav a {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        text-decoration: none;
-    
-        color: #212121;
-}
-    .site-nav a:hover,
-    .site-nav a:focus {
-        color: #2196F3;
+.nav-link {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em; 
+            text-decoration: none;
+        
+                color: #212121;
+        }
+            .nav-link:hover,
+            .nav-link:focus {
+                color:var(--accent-coior-#2196F3);
     }
         
         li {
             display: block;
         }
+
+        .contact-link  {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+        color: #2196F3;
+        }
+
+        
+
        
     
 
