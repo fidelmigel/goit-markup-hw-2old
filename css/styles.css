@@ -16,6 +16,38 @@ span.logo-color {
     color: #000000;
 }
 
+    .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+}
+
+.site-nav {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+    .site-nav:hover,
+    .site-nav:focus {
+        color: #2196F3;
+    }
+    .site-nav:active {
+        color: teal;
+    }
+
+
 .page-footer {
 
 }
