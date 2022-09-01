@@ -40,30 +40,41 @@ span.logo-color {
         
                 color: #212121;
         }
-            .nav-link:hover,
-            .nav-link:focus {
-                color:var(--accent-coior-#2196F3);
+.nav-link:hover {
+                color: #2196F3;
+                }
+        
+.nav-link:focus {
+                color:#2196F3
+    }
+    .nav-link:active {
+        color: #2196F3;
     }
         
-        li {
+                li {
             display: block;
         }
 
-        .contact-link  {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-
-        color: #2196F3;
-        }
-
+.contact-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #757575;
+} 
         
+.contact-link:hover {
+    color: #2196F3;
+}
+.contact-link:focus {
+    color: #2196F3
+}
 
-       
-    
+.contact-link:active {
+    color: #2196F3;
 
 
 .page-footer {
