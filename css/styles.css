@@ -1,3 +1,7 @@
+:root {
+--title-text-color: #212121;
+--accent-color:#2196F3
+}
 .page-header {
  background: #FFFFFF;
 }
@@ -48,7 +52,7 @@ span.logo-color {
                 color:#2196F3
     }
     .nav-link:active {
-        color: #2196F3;
+        color: var(--accent-color);
     }
         
                 li {
@@ -75,6 +79,7 @@ color: #757575;
 
 .contact-link:active {
     color: #2196F3;
+}
 
 
 .page-footer {
