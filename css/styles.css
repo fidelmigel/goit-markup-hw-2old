@@ -1,6 +1,7 @@
 :root {
 --title-text-color: #212121;
---accent-color:#2196F3
+--accent-color:#2196F3;
+--paragraf-text-color:#757575;
 }
 .page-header {
  background: #FFFFFF;
@@ -12,7 +13,7 @@
         font-size: 26px;
         line-height: 31px;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--accent-color);
         text-decoration: none;
         }
         
@@ -45,11 +46,11 @@ span.logo-color {
                 color: #212121;
         }
 .nav-link:hover {
-                color: #2196F3;
+                color:var(--accent-color);
                 }
         
 .nav-link:focus {
-                color:#2196F3
+                color:var(--accent-color)
     }
     .nav-link:active {
         color: var(--accent-color);
@@ -67,18 +68,18 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 text-decoration: none;
-color: #757575;
+color: var(--paragraf-text-color);
 } 
         
 .contact-link:hover {
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .contact-link:focus {
-    color: #2196F3
+    color: var(--accent-color)
 }
 
 .contact-link:active {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
