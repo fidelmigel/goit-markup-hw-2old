@@ -2,10 +2,13 @@
 --title-text-color: #212121;
 --accent-color:#2196F3;
 --paragraf-text-color:#757575;
+--background-color:#F5F5F5;
+--hero-footer-background-color:#2F303A;
+--header-background-color:#FFFFFF;
+
+
 }
-.page-header {
- background: #FFFFFF;
-}
+
 .logo {
     font-family: 'Raleway';
         font-style: normal;
@@ -81,6 +84,12 @@ color: var(--paragraf-text-color);
 .contact-link:active {
     color: var(--accent-color);
 }
+
+.button {
+color:var(--header-background-color);
+background-color:var(--accent-color);
+}
+
 
 
 .page-footer {
