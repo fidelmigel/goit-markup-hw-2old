@@ -144,7 +144,7 @@ background: var(--hero-footer-background-color);
 
 }
 .body{
-    background:var(--background-color);
+    background:#FFFFFF;
     font-family: 'Roboto';
     color: var(--title-text-color)
 }
