@@ -132,7 +132,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
-.title {
+.invisible-title {
 visibility: hidden;
 }
 
@@ -149,4 +149,49 @@ background: var(--hero-footer-background-color);
     letter-spacing: 0.03em;
     color: var(--header-background-color) ;
 
+}
+.body{
+    background:var(--background-color);
+    font-family: 'Roboto';
+    color: var(--title-text-color)
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    }
+
+.paragraph {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--paragraf-text-color);
+}
+.presentation {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.example-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.example-product {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: var(--paragraf-text-color);
 }
