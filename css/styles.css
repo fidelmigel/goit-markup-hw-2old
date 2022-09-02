@@ -11,7 +11,6 @@
 
 .logo {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -42,7 +41,6 @@ span.footer-logo-color {
 
 .nav-link {
             font-family: 'Roboto';
-            font-style: normal;
             font-weight: 500;
             font-size: 14px;
             line-height: 16px;
@@ -68,7 +66,6 @@ span.footer-logo-color {
 
 .contact-link {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -96,8 +93,6 @@ cursor: pointer;
 }
 
 .nav-button {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -122,8 +117,6 @@ cursor: pointer;
     background-color:var(--hero-footer-background-color)
 }
 .hero-title {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -157,7 +150,6 @@ background: var(--hero-footer-background-color);
 }
 
 .title {
-    font-style: normal;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -166,7 +158,6 @@ background: var(--hero-footer-background-color);
     }
 
 .paragraph {
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -174,12 +165,26 @@ background: var(--hero-footer-background-color);
         color: var(--paragraf-text-color);
 }
 .presentation {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraf-text-color);
 }
 
 .example-name {
@@ -190,8 +195,8 @@ background: var(--hero-footer-background-color);
 }
 .example-product {
     font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.03em;
-        color: var(--paragraf-text-color);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--paragraf-text-color);
 }
