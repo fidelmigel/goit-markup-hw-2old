@@ -109,7 +109,10 @@ border: 0;
     background-color: var(--accent-color);
     
 }
-
+.nav-button:focus {
+    color: var(--header-background-color);
+    background-color: var(--accent-color);
+}
 
 .page-footer {
 
