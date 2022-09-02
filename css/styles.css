@@ -85,11 +85,30 @@ color: var(--paragraf-text-color);
     color: var(--accent-color);
 }
 
-.button {
+.hero-button {
 color:var(--header-background-color);
 background-color:var(--accent-color);
+border: 0;
 }
 
+.nav-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    border: 0;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color)
+
+}
+.nav-button:hover {
+    color: var(--header-background-color);
+    background-color: var(--accent-color);
+    
+}
 
 
 .page-footer {
