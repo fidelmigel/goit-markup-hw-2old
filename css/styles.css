@@ -11,17 +11,20 @@
 
 .logo {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);
-        text-decoration: none;
-        }
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    }
         
 span.logo-color {
     color: #000000;
+}
+span.footer-logo-color {
+    color: var(--header-background-color);
 }
 
     .visually-hidden {
@@ -89,6 +92,7 @@ color: var(--paragraf-text-color);
 color:var(--header-background-color);
 background-color:var(--accent-color);
 border: 0;
+cursor: pointer;
 }
 
 .nav-button {
@@ -100,6 +104,7 @@ border: 0;
     border: 0;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 
     color: var(--title-text-color)
 
@@ -127,7 +132,21 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 }
+.title {
+visibility: hidden;
+}
 
 .page-footer {
+background: var(--hero-footer-background-color);
+
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--header-background-color) ;
 
 }
