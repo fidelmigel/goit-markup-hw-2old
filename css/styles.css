@@ -68,7 +68,6 @@ span.footer-logo-color {
         }
 
 .contact-link {
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
@@ -148,9 +147,9 @@ background: var(--hero-footer-background-color);
 
 }
 .body{
-    background:#FFFFFF;
+    background:var(--header-background-color);
     font-family: 'Roboto';
-    color: var(--title-text-color)
+    
 }
 
 .title {
@@ -174,6 +173,13 @@ background: var(--hero-footer-background-color);
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.team {
+    background-color:var(--background-color) ;
+}
+
+.teammate {
+    background-color: var(--header-background-color);
 }
 .name {
     font-weight: 500;
@@ -204,3 +210,8 @@ background: var(--hero-footer-background-color);
     letter-spacing: 0.03em;
     color: var(--paragraf-text-color);
 }
+
+.bhg-color {
+    color: var(--paragraf-text-color);
+}
+
