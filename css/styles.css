@@ -63,6 +63,9 @@ span.footer-logo-color {
                 li {
             display: block;
         }
+        .current {
+           color: var(--accent-color); 
+        }
 
 .contact-link {
 font-family: 'Roboto';
@@ -93,6 +96,7 @@ cursor: pointer;
 }
 
 .nav-button {
+    font-family:inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
