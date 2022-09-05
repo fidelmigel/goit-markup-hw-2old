@@ -13,8 +13,7 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
     color: var(--accent-color);
     text-decoration: none;
     }
@@ -40,14 +39,12 @@ span.footer-logo-color {
 }
 
 .nav-link {
-            font-family: 'Roboto';
             font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
+            line-height: 0.9;
             letter-spacing: 0.02em; 
             text-decoration: none;
         
-                color: #212121;
+                color:var(--title-text-color)
         }
 .nav-link:hover {
                 color:var(--accent-color);
@@ -69,8 +66,7 @@ span.footer-logo-color {
 
 .contact-link {
 font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+line-height: 0.9;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--paragraf-text-color);
@@ -98,10 +94,9 @@ cursor: pointer;
     font-family:inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 0.6;
     border: 0;
     text-align: center;
-    letter-spacing: 0.03em;
     cursor: pointer;
 
     color: var(--title-text-color)
@@ -122,14 +117,11 @@ cursor: pointer;
 .hero-title {
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height:1.37;
 color: var(--header-background-color);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-}
-.invisible-title {
-visibility: hidden;
 }
 
 .page-footer {
@@ -140,39 +132,35 @@ background: var(--hero-footer-background-color);
 .address {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+    line-height: 0.6;
     color: var(--header-background-color) ;
 
 }
 .body{
     background:var(--header-background-color);
     font-family: 'Roboto';
-    
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+.work-about {
+
 }
 
-.title {
-    font-weight: 700;
-    letter-spacing: 0.03em;
+.work-title-text {
     text-transform: uppercase;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.9;
     }
 
-.par {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
+.team-tasks {
+    
+        line-height: 0.6;
         color: var(--paragraf-text-color);
 }
-.presentation {
-    font-weight: 700;
+.section-title {
     font-size: 36px;
-    line-height: 42px;
+    line-height: 0.9;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team {
     background-color:var(--background-color) ;
@@ -181,33 +169,27 @@ background: var(--hero-footer-background-color);
 .teammate {
     background-color: var(--header-background-color);
 }
-.name {
+.teame-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.8;
     text-align: center;
-    letter-spacing: 0.03em;
 }
-.profession {
-    font-weight: 400;
+.teame-position {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 0.8;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--paragraf-text-color);
 }
 
 .example-name {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 0.5;
     letter-spacing: 0.06em;
 }
 .example-product {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+    line-height: 0.5;
     color: var(--paragraf-text-color);
 }
 
